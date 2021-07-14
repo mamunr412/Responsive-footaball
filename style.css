@@ -1,0 +1,222 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header style */
+.header-section{
+    width: 1440px;
+    height: 677px;
+    display: flex;
+    background-color: #2D25A0;;
+}
+.title {
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+   
+
+}
+.title h1{
+    color: white;
+    width: 440px;
+    height: 230px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 80px;
+    margin-left: 156px;
+    margin-top: 207px;
+    
+}
+.live{
+    background-color: #E02C6D;
+    display: inline-block;
+    margin: 20px 156px 0px;
+    padding: 10px 24px;
+   
+}
+.live a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+   
+
+}
+
+
+ .Right-banner:hover img{
+    transform: scale(1.5);
+    transition: transform 3s ease-in-out;
+   
+    
+ }
+
+.Right-banner img{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 160px;
+    margin-top: 135px;
+    
+
+}
+/* players section */
+.containner{
+    width: 1050px;
+   
+}
+
+.players{
+    display:grid ;
+    grid-template-columns: repeat(3, 1fr); 
+    margin-left: 180px;
+     margin-top: 70px;
+
+}
+.player{
+    width: 300px;
+    height: 426px;
+    background-color: #FFFFFF;
+   box-shadow:0px 0px  40px;
+   margin: 15px;
+   padding: 0px 15px;
+}
+
+.player-img img{   
+    width: 300px;
+    height: 256px;
+
+    margin-top: 15px;
+    
+    
+}
+.player-info h1{
+    font-size: 28px;
+    margin-top: 15px; 
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+  
+}
+.player-info p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+}
+/* highlight sections */
+.highlight-section{
+    display: flex;
+}
+.highlight{
+    margin-top: 224px;
+    margin-left: 182px;
+    padding-right: 66px;
+}
+.highlight h1{
+    font-size: 48px;
+    
+}
+.highlight p{
+    font-size: 16px;
+    margin-top: 5px;
+    
+    
+}
+.highlight-live{
+    background-color: #E02C6D;
+    display: inline-block;
+    width: 150px;
+    height: 44px;
+}
+  
+.highlight-live a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 24px 0px;
+}
+.highlight-live p{
+    margin-top: 10px;
+  margin-left: 24px;
+
+
+}
+
+.highlight-img img{
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+}
+/* lastest news */
+.news-section{
+   display: flex;
+   margin-top: 30px;
+}
+.news-area{
+    font-size: 40px;
+    margin-right: 15px;
+}
+.news-area h1{ 
+    color: #000f2c;
+
+}
+
+.news{
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+
+}
+.news-info h1{
+   font-size: 20px;
+}
+.news-info img{
+    width: 300px;
+    height: 256px;
+
+}
+/* president news */
+.president{
+    display: flex;
+}
+.president-info h1{
+    color: #000f2c;
+    font-size: 40px;
+
+}
+
+
+/* footer sections */
+.footer-section{
+   
+}
+.footer-img img{
+    margin-top: 158px;
+    margin-left: 475px;
+    width: 483.87px;
+    height: 110px;
+}
+.social-icon{
+  margin: 20px 0px;
+  padding-left: 656px;
+}
+.social-icon img{
+    width: 32px;
+    height: 32px;
+    
+}
+span{
+    font-size: 18px;
+    margin-left: 600px;
+}
+/* media queries */
+/* mobile dveice */
+@media only screen and (max-witdh:688px) {
+   .containner{
+       display: grid ;
+       grid-template-columns: repeat(1, 1fr);
+   }
+    
+}
